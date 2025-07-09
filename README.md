@@ -1,3 +1,9 @@
+
+
+![image](https://github.com/user-attachments/assets/8b4c489c-0bdc-4c01-abbd-133b8cef5607)
+![image](https://github.com/user-attachments/assets/de830581-5d7a-4a93-a888-7d520fd82b9d)
+
+
 # Lead Scoring Tool
 
 This is a real-time lead scoring tool that predicts lead scores based on various lead details such as engagement, visits, time spent, and lead type. The tool uses a pre-trained machine learning model to classify leads and assign a score. The scores help businesses prioritize their leads based on the likelihood of conversion, improving sales outreach and decision-making processes.
