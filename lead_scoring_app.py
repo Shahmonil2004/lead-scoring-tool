@@ -8,8 +8,8 @@ import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load the pre-trained model using joblib
-model = joblib.load('lead_scoring_model.pkl')  # Replace with the actual model path
+
+model = joblib.load('lead_scoring_model.pkl') 
 
 # Streamlit UI setup
 st.set_page_config(page_title="Lead Scoring Tool", page_icon="📊", layout="wide")
@@ -80,13 +80,11 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Title and description
 st.markdown("<h1 class='title'>Real-Time Lead Scoring Tool</h1>", unsafe_allow_html=True)
 st.write("Input lead details below to get the real-time lead score.")
 
-# User input fields for lead data (Only necessary features used in model training)
 with st.form(key='lead_form'):
-    # Styling for input section
+ 
     st.markdown("<div class='input-section'>", unsafe_allow_html=True)
     lead_data = {
         "Engagement Score": st.slider("Engagement Score", min_value=0, max_value=10, value=5),
